@@ -1,5 +1,10 @@
-const TheProDiv = document.getElementById("ThePros");
-const TheConDiv = document.getElementById("ThePros");
-
-//Add a click event listener to the 'ThePros' div
-TheProDiv
+const TheProsDiv = document.getElementById('ThePros');
+const TheConsDiv = document.getElementById('TheCons');
+const infoDiv = document.getElementById('info');
+                                        
+TheProsDiv.addEventListener('click', function() {
+  infoDiv.innerHTML = 'This is the Pros';
+});
+TheConsDiv.addEventListener('click', fucntion(){
+  infoDiv = innerHTML = 'This is the Cons' ;
+});
